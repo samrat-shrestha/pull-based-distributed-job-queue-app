@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+pydantic
+# only needed for the Postgres version (main.py), not the in-memory latency test:
+asyncpg
